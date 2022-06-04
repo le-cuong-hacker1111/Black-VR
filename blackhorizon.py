@@ -1,20 +1,34 @@
-#Sử dụng python2
-#Coded by Heaven Hevin B
+#use/python/2
 ###############################################################################
-#                                                                             #
-#     ____  _            _    _                _                              #
-#|  _ \| |          | |  | |              (_)                                 #
-#| |_) | | __ _  ___| | _| |__   ___  _ __ _ _______  _ __                    #
-#|  _ <| |/ _` |/ __| |/ / '_ \ / _ \| '__| |_  / _ \| '_ \                   #
-#| |_) | | (_| | (__|   <| | | | (_) | |  | |/ / (_) | | | |                  #
-#|____/|_|\__,_|\___|_|\_\_| |_|\___/|_|  |_/___\___/|_| |_|                  #                                                        #
-#                                                                             #
-#           Tool                                                              #
-#                            ANONYmOuS                                        #
-#                BY                        beacause               AnonyMOUS   #
-#                                                        are                  #
-#                                                    we                        
+#                     /#\                                                     #
+#                    /###\     /\                                             #
+#                   /  ###\   /##\  /\                                        #
+#                  /      #\ /####\/##\                                       #
+#                 /  /      /   # /  ##\             _       /\               #
+#               // //  /\  /    _/  /  #\ _         /#\    _/##\    /\        #
+#              // /   /  \     /   /    #\ \      _/###\_ /   ##\__/ _\       #
+#             /  \   / .. \   / /   _   { \ \   _/       / //    /    \\      #
+#     /\     /    /\  ...  \_/   / / \   } \ | /  /\  \ /  _    /  /    \ /\  #
+#  _ /  \  /// / .\  ..%:.  /... /\ . \ {:  \\   /. \     / \  /   ___   /  \ #
+# /.\ .\.\// \/... \.::::..... _/..\ ..\:|:. .  / .. \\  /.. \    /...\ /  \ \#
+#/...\.../..:.\. ..:::::::..:..... . ...\{:... / %... \\/..%. \  /./:..\__   \#
+# .:..\:..:::....:::;;;;;;::::::::.:::::.\}.....::%.:. \ .:::. \/.%:::.:..\   #
+#::::...:::;;:::::;;;;;;;;;;;;;;:::::;;::{:::::::;;;:..  .:;:... ::;;::::..   #
+#;;;;:::;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;];;;;;;;;;;::::::;;;;:.::;;;;;;;;:..#
+#;;;;;;;;;;;;;;ii;;;;;;;;;;;;;;;;;;;;;;;;[;;;;;;;;;;;;;;;;;;;;;;:;;;;;;;;;;;;;#
+#;;;;;;;;;;;;;;;;;;;iiiiiiii;;;;;;;;;;;;;;};;ii;;iiii;;;;i;;;;;;;;;;;;;;;ii;;;#
+#iiii;;;iiiiiiiiiiIIIIIIIIIIIiiiiiIiiiiii{iiIIiiiiiiiiiiiiiiii;;;;;iiiilliiiii#
+#IIIiiIIllllllIIlllIIIIlllIIIlIiiIIIIIIIIIIIIlIIIIIllIIIIIIIIiiiiiiiillIIIllII#
+#IIIiiilIIIIIIIllTIIIIllIIlIlIIITTTTlIlIlIIIlIITTTTTTTIIIIlIIllIlIlllIIIIIIITT#
+#IIIIilIIIIITTTTTTTIIIIIIIIIIIIITTTTTIIIIIIIIITTTTTTTTTTIIIIIIIIIlIIIIIIIITTTT#
+#IIIIIIIIITTTTTTTTTTTTTIIIIIIIITTTTTTTTIIIIIITTTTTTTTTTTTTTIIIIIIIIIIIIIITTTTT#
+#Công cụ iDDoS Black Horizon được tạo để gỡ xuống một số trang web++++++++++++#
+#################################Anonymous#####################################
+###############################WE ARE HERE#####################################
 ###############################################################################
+###################################ANON########################################
+#########################THE WORLD WIDE WEB ATTACK###########++++##############
+
 
 from multiprocessing import Process, Manager, Pool
 import urlparse, ssl
@@ -194,7 +208,7 @@ class BlackHorizon(object):
                 for clound in self.cloundsQueue:
                     try:
                         if DEBUG:
-                            print "Killed clound {0}".format(clound.name)
+                            print "Killing clound {0}".format(clound.name)
                         #clound.terminate()
                         clound.stop()
                     except Exception, ex:
@@ -530,10 +544,10 @@ class Striker(Process):
 
 def usage():
     print BLACKHORIZON_BANNER 
-    print ' USAGE: ./BlackHorizon.py http://www.target.com/ [OPTIONS]'
+    print ' USAGE: python2.py http://www.target.com/ [OPTIONS]'
     print ' -c, --clounds Number of concurrent clounds\t(default: {0})'.format(DEFAULT_CLOUNDS)
     print ' -s, --sockets Number of concurrent sockets\t(default: {0})'.format(DEFAULT_SOCKETS)
-    print 'FUCK YOU '
+    print 'GOOD LUCK '
     print "\a"
 print \
 """                                                       
@@ -645,6 +659,26 @@ def main():
 
 if __name__ == "__main__":
     main()
-#WE ARE ANONYMOUS
-#WE ARE NOT SCAM
-v
+
+#################################################################################
+#                             aaaaaaaaaaaaaaaa               *                  #
+#                         aaaaaaaaaaaaaaaaaaaaaaaa                              #
+#                      aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa                           #
+#                    aaaaaaaaaaaaaaaaa           aaaaaa                         #
+#                  aaaaaaaaaaaaaaaa                  aaaa                       #
+#                 aaaaaaaaaaaaa aa                      aa                      #
+#*               aaaaaaaa      aa                         a                     #
+#                aaaaaaa aa aaaa                                                #
+#          *    aaaaaaaaa     aaa                                               #
+#               aaaaaaaaaaa aaaaaaa                               *             #
+#               aaaaaaa    aaaaaaaaaa                                           #
+#               aaaaaa a aaaaaa aaaaaa                                          #
+#                aaaaaaa  aaaaaaa                                               #
+#                aaaaaaaa                                 a                     #
+#                 aaaaaaaaaa                            aa                      #
+#                  aaaaaaaaaaaaaaaa                  aaaa                       #
+#                    aaaaaaaaaaaaaaaaa           aaaaaa        *                #
+#      *               aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa                           #
+#                         aaaaaaaaaaaaaaaaaaaaaaaa                              #
+#                      *      aaaaaaaaaaaaaaaa                                  #
+#################################################################################
