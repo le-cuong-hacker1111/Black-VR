@@ -1,8 +1,8 @@
 ## English
 # How to install the Blackhorizon DDoS tool?
-*`git clone https://github.com/le-cuong-hacker1111/Blackhorizon.git`
+*`git clone https://github.com/le-cuong-hacker1111/Blackhorizon1.git`
 
-*`cd Blackhorizon`
+*`cd Blackhorizon1`
 
 # How to use the Blackhorizon DDoS tool?
 *`python2 blackhorizon.py`
@@ -15,9 +15,9 @@
 
 ## Việt Nam
 # Làm thế nào để cài đặt tool DDoS Blackhorizon?
-*`git clone https://github.com/le-cuong-hacker1111/Blackhorizon.git`
+*`git clone https://github.com/le-cuong-hacker1111/Blackhorizon1.git`
 
-*`cd Blackhorizon`
+*`cd Blackhorizon1`
 
 # Làm thế nào để sử dụng tool DDoS Blackhorizon
 *`python2 blackhorizon.py`
