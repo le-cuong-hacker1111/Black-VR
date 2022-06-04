@@ -1,4 +1,4 @@
-#use/python/2
+#!/usr/bin/env python
 ###############################################################################
 #                     /#\                                                     #
 #                    /###\     /\                                             #
@@ -22,7 +22,7 @@
 #IIIiiilIIIIIIIllTIIIIllIIlIlIIITTTTlIlIlIIIlIITTTTTTTIIIIlIIllIlIlllIIIIIIITT#
 #IIIIilIIIIITTTTTTTIIIIIIIIIIIIITTTTTIIIIIIIIITTTTTTTTTTIIIIIIIIIlIIIIIIIITTTT#
 #IIIIIIIIITTTTTTTTTTTTTIIIIIIIITTTTTTTTIIIIIITTTTTTTTTTTTTTIIIIIIIIIIIIIITTTTT#
-#Công cụ iDDoS Black Horizon được tạo để gỡ xuống một số trang web++++++++++++#
+#Black Horizon iDDoS Tool Created for takedown some websites and give chaos   #
 #################################Anonymous#####################################
 ###############################WE ARE HERE#####################################
 ###############################################################################
@@ -181,7 +181,7 @@ class BlackHorizon(object):
         try:
             if self.counter[0] > 0 or self.counter[1] > 0:
 
-                print "#--------> Clounds Online: {0} Attacking... (Offline: {1}) Conection's online: {2} <--------#".format(self.counter[0], self.counter[1])
+                print "#--------> Clounds Online: {0} attacking... (Offline: {1}) Conection's online: {2} <--------#".format(self.counter[0], self.counter[1])
 
                 if self.counter[0] > 0 and self.counter[1] > 0 and self.last_counter[0] == self.counter[0] and self.counter[1] > self.last_counter[1]:
                     print "\tClound's can't attack more check if the website is offline."
@@ -544,10 +544,10 @@ class Striker(Process):
 
 def usage():
     print BLACKHORIZON_BANNER 
-    print ' USAGE: python2.py http://www.target.com/ [OPTIONS]'
+    print ' USAGE: ./BlackHorizon.py http://www.target.com/ [OPTIONS]'
     print ' -c, --clounds Number of concurrent clounds\t(default: {0})'.format(DEFAULT_CLOUNDS)
     print ' -s, --sockets Number of concurrent sockets\t(default: {0})'.format(DEFAULT_SOCKETS)
-    print 'GOOD LUCK '
+    print 'FUCK YOU '
     print "\a"
 print \
 """                                                       
