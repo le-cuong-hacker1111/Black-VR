@@ -27,3 +27,5 @@
 # -c, --clounds Số lượng cụm đồng thời (mặc định: 1)
 
 # -s, --sockets Số lượng ổ cắm đồng thời (mặc định: 1)
+
+# Tuỳ anh em thích đạt -s hoặc -c có thể lrn6 đến -s 5000 -c 500 để tăng sức mạnh mà tăng quá tool sẽ chạy không nổi ae cẩn thận xài vv
