@@ -544,9 +544,9 @@ class Striker(Process):
 
 def usage():
     print BLACKHORIZON_BANNER 
-    print ' USAGE: ./BlackHorizon.py http://www.target.com/ [OPTIONS]'
-    print ' -c, --clounds Number of concurrent clounds\t(default: {0})'.format(DEFAULT_CLOUNDS)
-    print ' -s, --sockets Number of concurrent sockets\t(default: {0})'.format(DEFAULT_SOCKETS)
+    print ' USAGE: python2 blackHorizon.py http://www.target.com/ [OPTIONS]'
+    print ' -c, --clounds Number of concurrent clounds\t(default: {1000})'.format(DEFAULT_CLOUNDS)
+    print ' -s, --sockets Number of concurrent sockets\t(default: {1000})'.format(DEFAULT_SOCKETS)
     print 'FUCK YOU '
     print "\a"
 print \
